@@ -1,0 +1,26 @@
+
+<!Doctype html>
+<html>
+<body>
+<script>
+var Dice1 = prompt( "Roll a six sided die two times and please give me the output. " +  "The First outcome please");
+	if (Dice1 >=1 && Dice1 <=6){
+		console.log ("Thank you for Rolling the Dice. Again please.");
+	}
+	else {
+		console.log (" Please use a six sided die only.");
+	}
+var Dice2 = prompt( "Outcome two please.");
+if (Dice2 >=1 && Dice2 <=6){
+		console.log ("Thank you for Rolling the Dice. Here is your total output.");
+	}
+	else {
+		console.log (" Please use a six sided die only.");
+	}
+var num_1 = parseInt (Dice1 ,10);
+var num_2 = parseInt (Dice2 ,10);
+var Dice_Sum = num_1 + num_2; 
+console.log( Dice_Sum );
+</script>
+</body>
+</html>
